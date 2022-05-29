@@ -8,9 +8,8 @@ public class MovingAveragesApp {
         medFilter.calc();
     }
     public static int MAwindow(){
-        System.out.println("Введите окно: ");
         Scanner scanner = new Scanner(System.in);
-        int window = scanner.nextInt();
+        int window = 3;
         return window;
     }
 }
